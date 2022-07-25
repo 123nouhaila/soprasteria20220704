@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<fieldset>
+		<legend>information personnelle</legend>
+		<form action="" method="get">
+			<fieldset>
+
+			<div>
+				<label for="email">email:</label><input type="text" id="email"
+					name="email" placeholder="lorem@mail.fr">
+			</div>
+			<div>
+          <label for="Mot de passe">Password (8 characters minimum):</label>
+           <input type="password" id="Mot de passe" name="password"
+           minlength="8" required>
+         </div>
+			</fieldset>
+			<div>
+		<fieldset>
+		<legend>sexe</legend>
+		<form action="" method="get">
+			<fieldset>
+			<hr>
+			<div>
+				<label for="select">sexe</label>
+				<select id="select" name="select">
+					<option value="f">femme</option>
+					<option value="h">Homme</option>
+				</select>
+			</div>
+			</fieldset>
+			<fieldset>
+		<legend>preferences</legend>
+		<form action="" method="get">
+			<fieldset>
+           <P>Hobbies :
+             <UL>
+             <LI><INPUT type="checkbox" name="sport"> Sport
+               <LI><INPUT type="checkbox" name="lecture"> Lecture
+              <LI><INPUT type="checkbox" name="informatique"> Informatique
+              </UL>
+			<div>
+			<P>Couleurs:
+				<UL>
+             <LI><INPUT type="radio" name="rouge"> rouge
+               <LI><INPUT type="radio" name="bleu"> bleu
+              <LI><INPUT type="radio" name="rose"> rose
+              </UL>
+			</div>
+			<fieldset>
+			<div>
+				<textarea rows="10" cols="75" name="texte">
+				</textarea>
+			</div>
+			<div>
+				<label for="demo">commentaire:</label><input type="hidden" id="demo"
+					name="demo" value="hidden" >
+			</div>
+			<div>
+				<button type="submit">envoyer</button>
+			</div>
+		</form>
+		</fieldset>
+	</div>
+</body>
+</html> 
+
+   
